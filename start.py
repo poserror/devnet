@@ -9,7 +9,6 @@ Purpose: A simple Flask web app that demonstrates the Model View Controller
 from flask import Flask, render_template, request
 from database import Database
 
-
 # Create Flask object
 app = Flask(__name__)
 
